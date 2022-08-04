@@ -1,12 +1,12 @@
 const routes = {
   "/": {
-    body: "/routes/home.html",
+    body: "./routes/home.html",
   },
   "/about": {
-    body: "/routes/about.html",
+    body: "./routes/about.html",
   },
   "/dynamic/:id": {
-    body: "/routes/dynamic.html",
+    body: "./routes/dynamic.html",
   },
 };
 
